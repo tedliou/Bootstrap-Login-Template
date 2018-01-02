@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.bg-login {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.input-group-addon i{
+    width: 14px;
+}
+
+.fixed-bottom-banner ul{
+    padding-left: 0;   
+    margin-top: 20px;
+}
+.fixed-bottom-banner ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    font-size: 80%;
+}
+
+@media (max-width: 768px) {
+    .page-banner {
+        display: none;
+    }
+}
+
+.page-logo {
+    position: absolute !important;
+    width: 100px;
+    background-color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    margin-top: calc(50vh - 50px);
+    margin-left: calc(50% - 50px);
+    -webkit-animation-duration: 3s;
+}
